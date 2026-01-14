@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import admin from 'firebase-admin';
+import { admin } from '../infrastructure/firebase/firebaseAdmin';
 
 /**
  * Middleware que valida que el usuario autenticado tenga el rol "admin".
